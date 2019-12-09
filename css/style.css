@@ -1,0 +1,213 @@
+
+/*----------------------------header---------------------*/
+.header {
+  background:url('http://cdn.desktopwallpapers4.me/wallpapers/flowers/1680x1050/2/16267-dianthus-bouquet-in-a-vase-1680x1050-flower-wallpaper.jpg') no-repeat center center;
+  background-size: cover;      
+  min-height:100%;    
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+/*----------------------------Navigation---------------------*/
+nav.navbar {
+  background-color: rgba(98,84,100,0.2);
+}
+.navbar {
+  background-color: rgba(255, 255, 255, 0);
+}
+.nav-container {
+  border-width: 0;
+  box-shadow: none;
+  background-color: aliceblue;
+}
+.navbar.navbar-light {
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.navbar.navbar-light .navbar-collapse {
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+p.nav-text:hover,
+p.nav-text:focus {
+  color: #FFF;
+}
+
+p.nav-text {
+
+  color: #000;
+}
+
+/*----------------------------Button---------------------*/
+
+.turquoise {
+  background-color: #10C9C3;
+}
+
+/*----------------------------proccess---------------------*/
+ .proccess {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+  }
+
+  .proccess-text, p.services-subtitle {
+     font-family: 'Nunito Sans', sans-serif;
+     font-weight: 400;
+      font-size: 16px;
+  }
+
+
+
+/*----------------------------fonts---------------------*/
+a,h1-header {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a p {
+  font-size: 12px;
+}
+
+p strong {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 18px;
+}
+
+p.percent,.number-text, .load, h5.services-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+  .number, .corp {
+     font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+
+ 
+
+/*----------------------------numeric-facts---------------------*/
+
+.numveric-facts {
+  background-color: #10C9C3;
+}
+
+/*----------------------------skills---------------------*/
+.skills {
+  background-image: url('https://images.pexels.com/photos/276534/pexels-photo-276534.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); 
+  background-size:cover;
+  min-height:100%;
+}
+
+.line-100percent {
+  position:absolute; top:0;width: 100%; border: 1px solid #CBCBC2;background-color: #CBCBC2;
+}
+
+.line-75percent {
+  position:absolute; top:0;width: 75%;border: 1px solid #39B4AF; background-color: #39B4AF;
+}
+
+.line-90percent {
+  position:absolute; top:0;width: 90%;border: 1px solid #39B4AF; background-color: #39B4AF;
+}
+
+.line-65percent {
+  position:absolute; top:0;width: 65%;border: 1px solid #39B4AF; background-color: #39B4AF;
+}
+
+
+/*----------------------------services---------------------*/
+.services, .contact {
+  background-color: #F5F5F5;
+}
+
+/*----------------------------work---------------------*/
+.load-work {
+  background-color: #E5E3E3;
+}
+
+/*----------------------------contact---------------------*/
+input.forms-style,textarea.forms-style {
+  /*border: 1px solid #FFF;*/
+  color: #fff;
+  border-style: none;
+   outline:none;
+   resize:none;
+}
+
+
+/*----------------------------footer---------------------*/
+
+p.footer-text {
+     font-family: 'Nunito Sans', sans-serif;
+     font-weight: 400;
+      font-size: 15px;
+      color: #bcbcbc;
+  }
+
+.page-footer {
+  background-color: #141414;
+}
+
+/*----------------------------row/col---------------------*/
+.row {
+   margin-right: 0px; 
+   margin-left:0;
+}
+ .col {
+    flex-basis: auto;
+    flex-grow: 0;
+}
+
+/*----------------------------Carousel------------------------*/
+html, body, .view {
+  height: 100%;
+}
+
+.carousel {
+  height: 50%;
+}
+
+.carousel .carousel-inner {
+  height: 100%;
+}
+
+.carousel .carousel-inner .carousel-item, 
+.carousel .carousel-inner .active {
+  height: 100%;
+}
+
+.carousel .carousel-control-next-icon, .carousel .carousel-control-prev-icon  {
+  height: 80px;
+  width: 80px;
+}
+.carousel-1item {
+background-image: url(https://images.pexels.com/photos/733852/pexels-photo-733852.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); 
+background-repeat: no-repeat; 
+background-size: cover;
+}
+.carousel-2item {
+  background-image: url(https://images.pexels.com/photos/961402/pexels-photo-961402.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+.carousel-3item {
+  background-image: url(https://images.pexels.com/photos/768943/pexels-photo-768943.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+@media (max-width: 776px) {
+  .carousel {
+    height: 100%;
+  }
+}
+
+
+
+
