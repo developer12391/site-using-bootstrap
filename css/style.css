@@ -1,7 +1,7 @@
 
 /*----------------------------header---------------------*/
 .header {
-  background:url('http://cdn.desktopwallpapers4.me/wallpapers/flowers/1680x1050/2/16267-dianthus-bouquet-in-a-vase-1680x1050-flower-wallpaper.jpg') no-repeat center center;
+  background:url('../img/flower.jpg') no-repeat center center;
   background-size: cover;      
   min-height:100%;    
   padding-top: 20px;
